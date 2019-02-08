@@ -1,9 +1,0 @@
-create database imagenesblob;
-
-use imagenesblob;
-
-create table img(
-img_id int not null auto_increment primary key,
-img_comentario varchar(20) not null,
-img_contenido longblob
-);
